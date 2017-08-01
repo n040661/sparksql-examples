@@ -22,6 +22,5 @@ object DataFrameFilterWithBC {
 				  
 				  xdf.show()
 				  filtered.show()
-				  //val cols = array(col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"), col("name"))
   }
 }

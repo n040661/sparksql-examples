@@ -17,6 +17,7 @@ object TestJSONToArray extends App {
   import spark.sqlContext.implicits._
 
   val df = spark.sparkContext.parallelize(Seq((1, "shankar", 1), (2, "ramesh", 2)), 2).toDF("id", "name", "score")
+  df.show()
   
   df.write.json("C:\\TestData\\json")
 
